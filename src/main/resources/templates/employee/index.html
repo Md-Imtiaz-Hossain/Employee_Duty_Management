@@ -78,7 +78,7 @@
                 <th>Email</th>
                 <th>Phone</th>
                 <th>UserName</th>
-                <th>Password</th>
+<!--                <th>Password</th>-->
                 <th>Designation</th>
                 <th>Action</th>
             </tr>
@@ -98,7 +98,7 @@
                 <td th:text="${employee.email}"></td>
                 <td th:text="${employee.phone}"></td>
                 <td th:text="${employee.userName}"></td>
-                <td th:text="${employee.password}"></td>
+<!--                <td th:text="${employee.password}"></td>-->
                 <td th:text="${employee.designation}"></td>
                 <td>
                     <a th:href="@{/employee/show-form-for-update/(id=${employee.id})}"

@@ -62,24 +62,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
         httpSecurity.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
 
-
-//        httpSecurity.csrf().disable()
-//                .authorizeRequests().antMatchers("/authenticate",
-//                        "/report/**",
-//                        "/client/**", "/duty-log/**",
-//                        "/duty/**", "/employee/**", "/home/**").permitAll().
-//                anyRequest().authenticated().and().
-//                exceptionHandling().and().sessionManagement()
-//                .sessionCreationPolicy(SessionCreationPolicy.STATELESS);
-//        httpSecurity.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
-
-
     }
-
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//        return new BCryptPasswordEncoder();
-//    }
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {

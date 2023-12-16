@@ -9,7 +9,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.sql.Time;
 
-public class test {
+public class JavaDateTimeAPITest {
     public static void main(String[] args) throws ParseException {
 
 

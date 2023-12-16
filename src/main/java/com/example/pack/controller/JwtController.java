@@ -1,12 +1,12 @@
 package com.example.pack.controller;
 
-import com.example.pack.RestControllerRequestResponse.CurrentDutiesLocation;
-import com.example.pack.RestControllerRequestResponse.DutiesEnd;
-import com.example.pack.RestControllerRequestResponse.DutiesStart;
+import com.example.pack.model.RequestResponse.CurrentDutiesLocation;
+import com.example.pack.model.RequestResponse.DutiesEnd;
+import com.example.pack.model.RequestResponse.DutiesStart;
 import com.example.pack.model.Duty;
 import com.example.pack.model.DutyLog;
-import com.example.pack.RestControllerRequestResponse.JwtRequest;
-import com.example.pack.RestControllerRequestResponse.JwtResponse;
+import com.example.pack.model.RequestResponse.JwtRequest;
+import com.example.pack.model.RequestResponse.JwtResponse;
 import com.example.pack.service.DutyLogService;
 import com.example.pack.service.DutyService;
 import com.example.pack.service.JwtService;

@@ -1,4 +1,4 @@
-package com.example.pack.controller;
+package com.example.pack.controller.rest;
 
 
 import com.example.pack.model.Duty;

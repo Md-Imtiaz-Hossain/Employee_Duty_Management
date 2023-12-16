@@ -1,8 +1,8 @@
 package com.example.pack.service;
 
 import com.example.pack.model.Employee;
-import com.example.pack.RestControllerRequestResponse.JwtRequest;
-import com.example.pack.RestControllerRequestResponse.JwtResponse;
+import com.example.pack.model.RequestResponse.JwtRequest;
+import com.example.pack.model.RequestResponse.JwtResponse;
 import com.example.pack.repository.EmployeeRepository;
 import com.example.pack.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;

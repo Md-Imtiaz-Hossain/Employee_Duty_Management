@@ -1,4 +1,4 @@
-package com.example.pack.RestControllerRequestResponse;
+package com.example.pack.model.RequestResponse;
 
 
 import com.example.pack.model.Employee;
